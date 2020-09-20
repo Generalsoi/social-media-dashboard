@@ -1,0 +1,157 @@
+body{
+    background: hsl(230, 17%, 14%);
+    padding: 2% 7%;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    margin: 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h2{
+    color: white;
+}
+
+
+
+/*header*/
+
+#total-followers{
+    margin-top: 0;
+    color: hsl(228, 12%, 44%);
+    font-weight: bold;
+}
+#page-heading{
+    float: left;
+    width: 50%;
+}
+#darkmode{
+    float: right;
+    width: 10%;
+}
+#header-float::after { 
+    content: "";
+    display: block; 
+    clear: both;
+  }
+
+
+
+/*card*/
+.fullCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.facebook{
+    border-top: 5px solid hsl(208, 92%, 53%);
+}
+.twitter{
+    border-top: 5px solid hsl(203, 89%, 53%);
+}
+.instagram{
+    border-top: 5px solid hsl(37, 97%, 70%);
+}
+.youtube{
+    border-top: 5px solid hsl(348, 97%, 39%);
+}
+.cardContent{
+    border-radius: 0.3rem;
+    background-color: hsl(228, 28%, 20%);    
+    padding: 2rem 4.5rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    width: 16.5rem;
+}
+.cardContent:hover{
+    background-color: #3a3e57;
+}
+
+.cardText{
+    margin: 0;
+    padding: 0;
+}
+
+.noOfFollowers{
+    color: white;
+    padding: 0;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.username{
+    font-size: small;
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+    padding-top: 0;
+}
+.followers{
+    color: hsl(228, 12%, 44%);
+    letter-spacing: 0.3rem;
+}
+.changeInFollows{
+    font-size: 0.7rem;
+}
+.green{
+    color: hsl(163, 72%, 41%);
+}
+.red{
+    color: red;
+}
+
+
+
+/*second card*/
+.secondfullCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.second{
+    text-align: start;
+    padding: 1rem 2rem;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 10%;
+    padding-top: 15px;
+}
+#initial-float::after { 
+    content: "";
+    display: block; 
+    clear: both;
+  }
+
+.secondnoOfFollowers{
+    color: white;
+    padding: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+/*attribution*/
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution p{
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

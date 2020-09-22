@@ -67,7 +67,7 @@ h2{
 .cardContent{
     border-radius: 0.3rem;
     background-color: hsl(228, 28%, 20%);    
-    padding: 2rem 4.5rem;
+    padding: 0.8rem 4.5rem;
     margin: 1rem;
     box-sizing: border-box;
     text-align: center;
@@ -85,6 +85,7 @@ h2{
 .noOfFollowers{
     color: white;
     padding: 0;
+    margin: 0;
     font-size: 2.6rem;
     font-weight: bold;
 }
@@ -111,11 +112,6 @@ h2{
 
 
 /*second card*/
-.secondfullCard{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 .second{
     text-align: start;
@@ -129,7 +125,10 @@ h2{
 .right{
     float: right;
     width: 10%;
-    padding-top: 15px;
+}
+.level{
+    margin-top: 10px;
+    margin-bottom: 1px;
 }
 #initial-float::after { 
     content: "";
@@ -143,6 +142,12 @@ h2{
     font-size: xx-large;
     font-weight: bold;
 }
+.lower-level{
+    margin-bottom: 2px;
+}
+
+
+
 /*attribution*/
 .attribution { 
     font-size: 11px; text-align: center; 
